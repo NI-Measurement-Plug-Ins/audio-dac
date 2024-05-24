@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Build Sweep Measurements Results.vi" Type="VI" URL="../subVIs/Build Sweep Measurements Results.vi"/>
+		<Item Name="Build Table Results.vi" Type="VI" URL="../subVIs/Build Table Results.vi"/>
 		<Item Name="Update Digital Audio Generation (Freq and Amp).vi" Type="VI" URL="../subVIs/Update Digital Audio Generation (Freq and Amp).vi"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>

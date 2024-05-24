@@ -533,6 +533,7 @@
 			<Item Name="Single Tone Multi Ch Audio Measurements.vi" Type="VI" URL="../../shared/Single Tone Multi Ch Audio Measurements.vi"/>
 			<Item Name="Single Tone Units.ctl" Type="VI" URL="../../shared/controls/Single Tone Units.ctl"/>
 			<Item Name="Units to Display Units.vi" Type="VI" URL="../../shared/Units to Display Units.vi"/>
+			<Item Name="Update Table Row Text Color.vi" Type="VI" URL="../../shared/Update Table Row Text Color.vi"/>
 			<Item Name="Volts to dB.vi" Type="VI" URL="../../shared/Volts to dB.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
