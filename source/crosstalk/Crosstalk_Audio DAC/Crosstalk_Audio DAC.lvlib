@@ -11,6 +11,7 @@
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Channel list.vi" Type="VI" URL="../subVIs/Channel list.vi"/>
 		<Item Name="Crosstalk (N Chan).vi" Type="VI" URL="../subVIs/Crosstalk (N Chan).vi"/>
 		<Item Name="Generate digital signal.vi" Type="VI" URL="../subVIs/Generate digital signal.vi"/>
 		<Item Name="Perform crosstalk measurement.vi" Type="VI" URL="../subVIs/Perform crosstalk measurement.vi"/>

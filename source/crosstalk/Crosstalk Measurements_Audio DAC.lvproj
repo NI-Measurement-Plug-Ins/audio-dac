@@ -516,7 +516,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Crosstalk_Audio DAC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{863EE0B3-848F-4426-8F0E-0B837641BF44}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Crosstalk_AudioDAC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/dev/audio-dac/builds/Crosstalk/Crosstalk_AudioDAC.exe</Property>
@@ -527,7 +527,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/dev/audio-dac/builds/Crosstalk/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FDAE158B-BB5C-4404-B94E-A4C959983918}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EF4A9A71-0F4A-47F6-BCC0-A7E83F0D3DC3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Crosstalk_Audio DAC.lvlib/Get Measurement Details.vi</Property>
@@ -581,7 +581,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{41464EFE-217A-4433-A131-7A736B109F7A}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Crosstalk_Audio DAC_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Crosstalk_Audio DAC/BuiltUI/Crosstalk_Audio DAC_UI.lvlibp</Property>
@@ -593,7 +593,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FDAE158B-BB5C-4404-B94E-A4C959983918}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9C8C27DB-6C39-40F9-861B-376601E0ABE0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Crosstalk_Audio DAC_UI.lvlib</Property>
