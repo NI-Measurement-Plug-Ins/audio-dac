@@ -1,15 +1,44 @@
-# GitHub Repo Template
+# Audio DAC - LabVIEW
 
-GitHub Repo Template is a template for creation of open source projects made
-available on GitHub. It includes a permissive open source license, a developer
-certificate of origin, and a pull request template. This provides everything
-necessary to have a properly licensed open source project.
+## Overview
 
-## Using GitHub Repo Template
+This MeasurementLink LabVIEW plugin makes measurements for Audio DACs.
 
-1. Clone or download this repository.
-2. Copy its contents into your project (including the hidden .github directory). 
-3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and \<reponame\>, and replace with content appropriate to your project.
-4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
+The tests generate an analog signal and measures the digital audio output of the ADC
 
-TODO: describe a project in detail, what it does, how to use it, etc.
+![image](docs/images/ac-freq-domain.png)
+
+
+## Key Features
+
+ - Generates analog signal supporting below protocols
+   - I2S
+   - Left Justified
+   - Right Justified
+   - TDM
+ 
+ - Single tone measurements (for single channel and dual channel)
+   - THD
+   - THD+N
+   - SNR
+   - SFDR
+   - Dynamic range
+   - Gain error 
+ - Stepped Frequency Sweep
+   
+
+## Software Installation
+(*This section is applicable if you only want to use the pre-compiled plug-ins. If you want to open the source code, go to [software development](docs/software-development.md).*)  
+Install from NI Package Manager:
+
+- NI-DCPower (As recommended by InstrumentStudio, if SMUs are used for powering up the DUT)
+- InstrumentStudio (2024 Q1 or higher)
+- Measurement Link (2024 Q1 or higher)
+
+Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community. To use the NI Package Manager feeds, refer to this: [Subscribing to package feeds](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds)
+
+## Getting Started
+When you are ready to start using the software, check out [this](docs/help.md).
+
+## Contributing
+Use the instructions in [software development](docs/software-development.md) for setting up a development environment and overview of the code.

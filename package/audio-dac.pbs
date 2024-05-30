@@ -1,0 +1,553 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>audio-dac</Name>
+    <SourceItems>
+        <SourceItem z:Id="i2">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\BuiltUI\Single Tone_Audio DAC_UI.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i3">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i4">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i5">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i6">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i7">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\SingleTone_AudioDAC.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i8">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\SingleTone_AudioDAC.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i9">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\SingleTone_AudioDAC.ini</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i10">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\SingleTone_AudioDAC.serviceconfig</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i11">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\BuiltUI\Stepped Frequency Sweep_Audio DAC_UI.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i12">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i13">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i14">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i15">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i16">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Stepped Frequency Sweep_AudioDAC.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i17">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Stepped Frequency Sweep_AudioDAC.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i18">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Stepped Frequency Sweep_AudioDAC.ini</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i19">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Stepped Frequency Sweep_AudioDAC.serviceconfig</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i20">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\BuiltUI</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i2" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i21">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i3" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i22">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\LinuxRT</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i4" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i23">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Win32</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i5" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i24">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Win64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i6" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i25">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\BuiltUI</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i11" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i26">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i12" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i27">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\LinuxRT</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i13" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i28">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Win32</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i14" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i29">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Win64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i15" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i30">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i21" />
+                <SourceItem z:Ref="i22" />
+                <SourceItem z:Ref="i23" />
+                <SourceItem z:Ref="i24" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i31">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i26" />
+                <SourceItem z:Ref="i27" />
+                <SourceItem z:Ref="i28" />
+                <SourceItem z:Ref="i29" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i32">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i7" />
+                <SourceItem z:Ref="i8" />
+                <SourceItem z:Ref="i9" />
+                <SourceItem z:Ref="i10" />
+                <SourceItem z:Ref="i20" />
+                <SourceItem z:Ref="i30" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i33">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i16" />
+                <SourceItem z:Ref="i17" />
+                <SourceItem z:Ref="i18" />
+                <SourceItem z:Ref="i19" />
+                <SourceItem z:Ref="i25" />
+                <SourceItem z:Ref="i31" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i34">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone Measurements_Audio DAC</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i32" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i35">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i33" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i36">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i34" />
+                <SourceItem z:Ref="i35" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+    </SourceItems>
+    <InputSourceItems>
+        <SourceItem z:Ref="i36" />
+    </InputSourceItems>
+    <Distributions>
+        <Distribution z:Id="i37" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i38" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments</DestinationRelativePath>
+                    <Name>National Instruments</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i39" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink</DestinationRelativePath>
+                    <Name>MeasurementLink</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i40" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services</DestinationRelativePath>
+                    <Name>Services</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i41" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC</DestinationRelativePath>
+                    <Name>Single Tone Measurements_Audio DAC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i42" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC</DestinationRelativePath>
+                    <Name>Single Tone_Audio DAC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i43" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\SingleTone_AudioDAC.aliases</DestinationRelativePath>
+                    <Name>SingleTone_AudioDAC.aliases</Name>
+                    <SourceItem z:Ref="i7" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i44" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\SingleTone_AudioDAC.exe</DestinationRelativePath>
+                    <Name>SingleTone_AudioDAC.exe</Name>
+                    <SourceItem z:Ref="i8" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i45" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\SingleTone_AudioDAC.ini</DestinationRelativePath>
+                    <Name>SingleTone_AudioDAC.ini</Name>
+                    <SourceItem z:Ref="i9" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i46" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\SingleTone_AudioDAC.serviceconfig</DestinationRelativePath>
+                    <Name>SingleTone_AudioDAC.serviceconfig</Name>
+                    <SourceItem z:Ref="i10" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i47" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i48" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\BuiltUI\Single Tone_Audio DAC_UI.lvlibp</DestinationRelativePath>
+                    <Name>Single Tone_Audio DAC_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i49" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i50" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i51" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i3" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i52" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i53" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i4" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i54" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i55" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i5" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i56" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i57" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Single Tone Measurements_Audio DAC\Single Tone_Audio DAC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i6" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i58" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep</DestinationRelativePath>
+                    <Name>Stepped Frequency Sweep</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i59" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC</DestinationRelativePath>
+                    <Name>Stepped Frequency Sweep_Audio DAC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i60" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Stepped Frequency Sweep_AudioDAC.aliases</DestinationRelativePath>
+                    <Name>Stepped Frequency Sweep_AudioDAC.aliases</Name>
+                    <SourceItem z:Ref="i16" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i61" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Stepped Frequency Sweep_AudioDAC.exe</DestinationRelativePath>
+                    <Name>Stepped Frequency Sweep_AudioDAC.exe</Name>
+                    <SourceItem z:Ref="i17" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i62" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Stepped Frequency Sweep_AudioDAC.ini</DestinationRelativePath>
+                    <Name>Stepped Frequency Sweep_AudioDAC.ini</Name>
+                    <SourceItem z:Ref="i18" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i63" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Stepped Frequency Sweep_AudioDAC.serviceconfig</DestinationRelativePath>
+                    <Name>Stepped Frequency Sweep_AudioDAC.serviceconfig</Name>
+                    <SourceItem z:Ref="i19" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i64" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i65" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\BuiltUI\Stepped Frequency Sweep_Audio DAC_UI.lvlibp</DestinationRelativePath>
+                    <Name>Stepped Frequency Sweep_Audio DAC_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i11" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i66" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i67" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i68" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i12" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i69" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i70" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i13" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i71" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i72" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i14" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i73" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i74" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Stepped Frequency Sweep\Stepped Frequency Sweep_Audio DAC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i15" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>audio-dac</Name>
+            <OutputDirectory>Packages</OutputDirectory>
+            <PluginConfigurationOptions>
+                <ConfigurationOption z:Id="i75">
+                    <Definition z:Id="i76">
+                        <Description>Publish LabVIEW NXG projects as examples or templates.</Description>
+                        <Name>Publish examples to LabVIEW NXG</Name>
+                    </Definition>
+                    <HasDefaultValues>true</HasDefaultValues>
+                    <Value z:Id="i77" i:type="DialogConfigurationOptionValue">
+                        <Values>
+                            <ConfigurationOptionValue z:Id="i78" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
+                                <d8p1:Value z:Id="i79" i:type="d8p1:LauncherRoot">
+                                    <d8p1:Children />
+                                </d8p1:Value>
+                            </ConfigurationOptionValue>
+                        </Values>
+                    </Value>
+                </ConfigurationOption>
+            </PluginConfigurationOptions>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_x64</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i80">
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>community-audio-dac_1.0.0.0_windows_x64.nipkg</FileName>
+                <Version>1.0.0.0</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <Description>Single tone and frequency sweep measurements for audio dac</Description>
+            <DisplayName>audio-dac</DisplayName>
+            <FileName>community-audio-dac_1.0.0.1_windows_x64.nipkg</FileName>
+            <Homepage>https://github.com/NI-MeasurementLink-Plug-Ins/audio-dac</Homepage>
+            <MaintainerEmail>email@mycompany.com</MaintainerEmail>
+            <MaintainerName>Github Community</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>community-audio-dac</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct</ProductName>
+            <Section>Add-Ons</Section>
+            <StoreProduct>true</StoreProduct>
+            <Synopsis>mycompany-myproduct</Synopsis>
+            <Version>1.0.0.1</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i81">
+            <Distributions>
+                <Distribution z:Ref="i37" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions />
+</Solution>
