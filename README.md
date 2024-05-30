@@ -4,9 +4,9 @@
 
 This MeasurementLink LabVIEW plugin makes measurements for Audio DACs.
 
-The tests generate an analog signal and measures the digital audio output of the ADC
+The tests generate the digital signal and measures the audio analog output of the DAC
 
-![image](docs/images/ac-freq-domain.png)
+![alt text](docs/images/Single%20tone%20measurement.JPG)
 
 
 ## Key Features
