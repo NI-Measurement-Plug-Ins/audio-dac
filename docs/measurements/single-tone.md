@@ -12,10 +12,10 @@ This service performs Single tone measurements: SNR, THD, THD+N, SFDR, Dynamic R
 
 1. Select appropriate resource names, data line and channel according to the hardware setup and update other parameters as needed. Ensure the protocol settings are good. Please note that, measurement is working in I2S by default.
 
-   ![alt text](meas-images/Single tone measurement-launch.png)
+   ![alt text](meas-images/single-tone-measurement-launch.png)
 
 2. Run the measurement. The frequency, amplitude, SNR, THD, THD+N, Dynamic Range, Gain error, SFDR values are calculated and displayed in the panel below.
 
-   ![alt text](meas-images/Single tone measurement UI.png)
+   ![alt text](meas-images/single-tone-measurement-UI.png)
 3. The generated and acquired signals can be seen from time domain and frequency domain graphs.
-   ![alt text](meas-images/single tone measurement.png)
+   ![alt text](meas-images/single-tone-measurement.png)
