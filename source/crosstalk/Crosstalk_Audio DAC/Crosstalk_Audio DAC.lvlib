@@ -11,9 +11,10 @@
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Channel list.vi" Type="VI" URL="../subVIs/Channel list.vi"/>
-		<Item Name="Crosstalk (N Chan).vi" Type="VI" URL="../subVIs/Crosstalk (N Chan).vi"/>
+		<Item Name="Build Crosstalk Channel List.vi" Type="VI" URL="../subVIs/Build Crosstalk Channel List.vi"/>
+		<Item Name="Crosstalk.vi" Type="VI" URL="../subVIs/Crosstalk.vi"/>
 		<Item Name="Generate digital signal.vi" Type="VI" URL="../subVIs/Generate digital signal.vi"/>
+		<Item Name="Generate Sine Wave for Digital Audio - Crosstalk.vi" Type="VI" URL="../subVIs/Generate Sine Wave for Digital Audio - Crosstalk.vi"/>
 		<Item Name="Perform crosstalk measurement.vi" Type="VI" URL="../subVIs/Perform crosstalk measurement.vi"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
