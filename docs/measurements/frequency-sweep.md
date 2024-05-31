@@ -14,7 +14,7 @@ This service performs Freyquency measurements: SNR, THD, THD+N, SFDR, Dynamic Ra
 ![alt text](meas-images/single-tone-measurement-launch.PNG)
 
 2. Run the measurement. The frequency, amplitude, SNR, THD, THD+N, Dynamic Range, Gain error, SFDR values are calculated and displayed in the panel below.
-![alt text](meas-images/freq-resp-ui.PNG)
+![alt text](meas-images/Freq-resp-ui.PNG)
 
 3. The generated and acquired signals can be seen from time domain and frequency domain graphs.
-![alt text](meas-images/frequency-sweep.PNG)
+![alt text](meas-images/frequency-sweep.JPG)
