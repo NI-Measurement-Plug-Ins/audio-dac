@@ -3,7 +3,7 @@ This service performs Freyquency measurements: SNR, THD, THD+N, SFDR, Dynamic Ra
 
 ## Tested Hardware Setup 1
 
-![alt text](meas-images/hardware-setup-for-CDB5381.png)
+![alt text](meas-images/audio-dac-setup.png)
 
 
 ## InstrumentStudio Panel
