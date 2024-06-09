@@ -9,7 +9,7 @@
 
 3. Once the build is complete, 'BuiltUI' folder can be seen under the measurement folder.
 
-    ![alt text](images/built-ui-folder.png)
+    ![alt text](https://github.com/NI-MeasurementLink-Plug-Ins/audio-dac/blob/main/docs/images/buit-ui-folder.PNG)
 
     The UI packed library must be present under the 'BuiltUI' folder.
 
