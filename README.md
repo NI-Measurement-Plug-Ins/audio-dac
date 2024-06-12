@@ -25,6 +25,7 @@ The tests generate the digital signal and measures the audio analog output of th
    - Dynamic range
    - Gain error 
  - Stepped Frequency Sweep
+ - Crosstalk
    
 
 ## Software Installation
@@ -34,6 +35,8 @@ Install from NI Package Manager:
 - NI-DCPower (As recommended by InstrumentStudio, if SMUs are used for powering up the DUT)
 - InstrumentStudio (2024 Q1 or higher)
 - Measurement Link (2024 Q1 or higher)
+- NI-DAQmx (2022 Q3 or higher)
+- NI-Digital Audio Acquisition and Generation Toolkit (2023 Q3 or higher)
 
 Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community. To use the NI Package Manager feeds, refer to this: [Subscribing to package feeds](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds)
 
