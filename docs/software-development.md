@@ -12,11 +12,11 @@ Install the below softwares and packages from NIPM
 
 ## VIPM packages
 
-Download and install the below packages in this [link](https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1).
+Download and install the below packages in this [link](https://github.com/ni/measurementlink-labview/releases/tag/v3.0.0.3).
 - ni_lib_labview_grpc_library-1.0.1.1
 - ni_lib_labview_grpc_servicer-1.0.1.1
-- ni_measurementlink_generator-2.0.0.1
-- ni_measurementlink_service-2.0.0.1
+- ni_measurementlink_generator-3.0.0.3
+- ni_measurementlink_service-3.0.0.3
 - ni_protobuf_types-1.0.0.1
 
 ## Tested with:
